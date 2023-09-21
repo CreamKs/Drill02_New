@@ -16,7 +16,7 @@ rander_frame(400, 90)
 
 def run_circle():
 	cx, cy, r = 400, 300, 200
-	for deg in range(0, 360, 5):
+	for deg in range(90, 360+90, 5):
 		x = cx + r * math.cos(math.radians(deg))
 		y = cy + r * math.sin(math.radians(deg))
 		rander_frame(x, y)
