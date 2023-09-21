@@ -23,8 +23,14 @@ def run_circle():
 
 
 def run_rectangle():
-	for x in range(50, 750+1, 5):
-		
+	#bottom line
+	#for x in range(50, 750 + 1, 5):
+	#	rander_frame(x, 90)
+
+	#top line
+	for x in range(750, 50 - 1, -5):
+		rander_frame(x, 550)
+
 
 
 
