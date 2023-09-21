@@ -27,9 +27,13 @@ def run_rectangle():
 	#for x in range(50, 750 + 1, 5):
 	#	rander_frame(x, 90)
 
+	#right line
+	for y in range(90, 550 + 1, 5):
+		rander_frame(750, y)
+
 	#top line
-	for x in range(750, 50 - 1, -5):
-		rander_frame(x, 550)
+#	for x in range(750, 50 - 1, -5):
+#		rander_frame(x, 550)
 
 
 
